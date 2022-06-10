@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-app.post('/adduser', function(req, res) {
+app.post('/signup', function(req, res) {
   var firstname = req.body.firstname;
   var lastname = req.body.lastname;
   var email = req.body.email;
